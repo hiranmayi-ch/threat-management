@@ -1,7 +1,12 @@
 
 #  Malware Analysis Platform
 
-This web-based platform is designed to facilitate ** malware analysis** through the input of URLs or hash values. It allows users to input suspicious URLs or file hashes and provides a safe and efficient method for detecting potential malware threats without executing the files. By leveraging a combination of hash-based checks and heuristic analysis, the platform uncovers potential malicious behaviors associated with the input data.
+This web-based platform is designed to facilitate **malware analysis** through the input of URLs or hash values. The tool enables users to upload or enter suspicious URLs or file hashes, which are then analyzed to uncover potential malicious behaviors associated with the given input. By leveraging a combination of hash-based checks and heuristic analysis, the platform identifies known malware samples and analyzes their structural properties without executing them, ensuring a safe and efficient method of detection.
+
+The tool performs various static analysis techniques, including examining file metadata, extracting embedded URLs or IPs, analyzing file dependencies, and detecting suspicious patterns that may indicate malware. Results from the analysis are presented in an intuitive dashboard, offering users detailed insights into the characteristics and potential risks associated with the given URLs or hashes. This approach allows for quick identification of threats and serves as an effective first layer of defense against malware.
+
+This repository is aimed at cybersecurity professionals, researchers, and developers who seek to improve their malware detection capabilities. It offers a user-friendly interface for rapid identification of potential threats, contributing to more robust and proactive cybersecurity practices.
+
 
 ## Features
 **Hash-based Detection:** The platform checks for known malware by analyzing provided hashes.
