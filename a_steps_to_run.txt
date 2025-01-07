@@ -1,0 +1,21 @@
+step1: open the file in vscode and run the "run_project.bat" file in the terminal.
+
+-> web page open successfully.
+
+Incase of any error,
+try deleting the venv file and install it again in the same directory using the commands:
+
+python -m venv venv
+and go to step 1.
+
+If you are still facing issue like flask module not found,
+try running these commands instead of "run_project.bat" file.
+
+->uninstall and install venv again
+
+1.venv\Scripts\activate.bat
+2. Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+3. .\venv\Scripts\Activate.bat
+4. python virustotal.py
+
+
